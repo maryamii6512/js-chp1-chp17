@@ -148,6 +148,10 @@ let respose = prompt(message,defaultVaue)
 var Response = prompt ("Enter your favorite color","Blue")
 alert(Response);
 
+
+
+
+
 // chp 10
 1
 var city = "karachi";
@@ -164,7 +168,11 @@ var city = "karachi";
  else{
  alert("please write correct city");}
 
- 4.
+ 
+
+
+
+
 //  chp 11
 1.
 (variable1 !== variable2)
@@ -183,6 +191,10 @@ alert("congratulation")
 var firstName = prompt("please enter your 1st nane")
 var anotherName = "rohn";
 if(firstName !== anotherName)alert("no Match")
+
+
+
+
 
     // chp 12
   1.
@@ -206,3 +218,70 @@ if(city ==="karachi");
 }else {
     alert("you've ebtered a city other then karachi or Lahore.");
 }
+
+
+
+// chapter 13
+1.
+if(a === b&&c ===d)
+2.
+if(a === b|| a !==d)
+3.
+if ((name === "Hamza" || name === "Arsalan")&& age <60){
+4.
+let num1 = 10;
+let num2 = 20;
+if (num1 <num2) {
+    alert("The first number is less than 2nd number.")
+}
+
+
+
+
+// chapter 14
+1.
+let password = "example"; // Example password
+if (password) { // check if password is not empty 
+    if (password.length>5){alert("OK");}
+    eles{
+        alert("password must be grater  than 5");}
+    }
+
+    2. if (a===1){if (c==="Max"){
+        alert("OK");
+    }
+
+    }
+    3.
+    if (a === 1 && c ==="Max")
+        {alert("OK");}
+
+    4.
+    let x = 5;
+    let y = 5;
+    if(x === y){
+        if(x <=y){
+            alert("Both condition are satisfied,");
+    }
+}
+
+
+
+
+// chapter 15
+1.
+let myArray=[]
+2.
+let stringArray = ["Hello"];
+3.
+var alphabet = ['h','i','j','k'];
+alert(alphabet[2]); // Accessing the third element Which is 'j'
+4.
+ var alphabet = ['h','i','j','k','l','m','n','o']
+console.log(alphabet.length); // output:8
+5.
+let array = [1]
+element 
+array[1] = 
+alert(array[1]);
+element
