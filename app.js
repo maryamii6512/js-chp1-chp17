@@ -83,3 +83,126 @@ var a = "5";
 var b = 9;
 var c = a*b;
 alert(c);
+
+
+// ch 6
+// 1.
+x++;
+// 2.
+x -= 1;
+// 3.
+var x = 50;
+var y = x++;
+alert(y);
+// y will be 50
+// 4.
+var y = 50;
+var z = -y;
+alert(z)
+// z will be 49
+// 5.
+var newNum = num--;
+// 6.
+var num = 10;
+num++;
+alert(num);
+
+
+
+
+// 8 Chp
+var num = "2"+"2";
+// ans will be 22
+2
+alert("3"+"3");
+// 33
+4.
+alert("pakistan"+"Zindabad");
+6.
+var x = "Hello, ";
+var y = " World!";
+var z = (x+y);
+alert (z);
+
+
+
+
+// chp 9
+1.
+var firstName = prompt("enter first name");
+2.
+var country = prompt("Country?","pakistan");
+3.
+var yourName = prompt("enter your message");
+var message = "Enter your age";
+var Response = "14";
+var Response = prompt(message,Response)
+4.
+let userInput = prompt(" please enter a valur","Default Value");
+5
+let message = "please enter a value"
+let defaultValue = "Default Value"
+let respose = prompt(message,defaultVaue)
+
+6
+var Response = prompt ("Enter your favorite color","Blue")
+alert(Response);
+
+// chp 10
+1
+var city = "karachi";
+ (city === "Karachi ")
+ 2
+ (x===y)
+    var z = prompt("please enter the value of z");
+    var anotherVariable = z;
+ 3.
+
+ if (zipcode === "10010"){
+
+ alert("karachi");}
+ else{
+ alert("please write correct city");}
+
+ 4.
+//  chp 11
+1.
+(variable1 !== variable2)
+2.
+(variable1 >= variable2)
+3.
+var num = 5;
+if (num !== 10)
+num = 10;
+4.
+var num1 = 5;
+var num2 = 10;
+if (num1 !== num2)
+alert("congratulation")
+5.
+var firstName = prompt("please enter your 1st nane")
+var anotherName = "rohn";
+if(firstName !== anotherName)alert("no Match")
+
+    // chp 12
+  1.
+var value1 = 25;
+var value2 = 30;
+if (value1 >= value2){
+    alert("Value 1 is greater than or equal to Value2")
+}else{
+    alert("Value 1 is less than Value 2")
+}
+3.
+if(a == 10){
+    alert("a is 10")
+}else{
+    alert("the correct value of a is " +a);
+}
+2.
+if(city ==="karachi");
+{
+    alert("enterred karachi!");
+}else {
+    alert("you've ebtered a city other then karachi or Lahore.");
+}
